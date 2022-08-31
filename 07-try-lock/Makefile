@@ -1,8 +1,8 @@
 # Thread vs. Process Demo Makefile
 CXX		 = g++
 CXXFLAGS = -Wall -std=c++11
-TARGET	 = atomicobjects
-SRC		 = atomicobjects.cpp
+TARGET	 = trylock
+SRC		 = trylock.cpp
 
 $(TARGET): $(SRC)
 	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET)

@@ -65,6 +65,8 @@
         "mutex": "cpp",
         "array": "cpp",
         "condition_variable": "cpp",
-        "shared_mutex": "cpp"
+        "shared_mutex": "cpp",
+        "queue": "cpp",
+        "deque": "cpp"
     }
 }
